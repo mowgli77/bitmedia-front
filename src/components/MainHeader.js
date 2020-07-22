@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import phone from "../phone_img.svg"
+import phone from "./images/phone_img.svg"
 
 const MainHeader = () => {
     return (

@@ -102,7 +102,7 @@
 }
 
 .mainHeader {
-  background-image: url("header.svg");
+  background-image: url("./components/images/header.svg");
 }
 .mainHeader__container {
   max-width: 1180px;
@@ -208,7 +208,7 @@
 }
 
 .mainFooter {
-  background-image: url("footer.svg");
+  background-image: url("./components/images/footer.svg");
 }
 .mainFooter__container {
   max-width: 1180px;
