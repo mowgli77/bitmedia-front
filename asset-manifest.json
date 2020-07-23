@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bitmedia-front/static/css/main.a0b83bad.chunk.css",
+    "main.js": "/bitmedia-front/static/js/main.ad9f175e.chunk.js",
+    "main.js.map": "/bitmedia-front/static/js/main.ad9f175e.chunk.js.map",
+    "runtime-main.js": "/bitmedia-front/static/js/runtime-main.8b57a99d.js",
+    "runtime-main.js.map": "/bitmedia-front/static/js/runtime-main.8b57a99d.js.map",
+    "static/js/2.c6a6143a.chunk.js": "/bitmedia-front/static/js/2.c6a6143a.chunk.js",
+    "static/js/2.c6a6143a.chunk.js.map": "/bitmedia-front/static/js/2.c6a6143a.chunk.js.map",
+    "index.html": "/bitmedia-front/index.html",
+    "precache-manifest.37a99bcb7d13d12e18e062e0d28e11da.js": "/bitmedia-front/precache-manifest.37a99bcb7d13d12e18e062e0d28e11da.js",
+    "service-worker.js": "/bitmedia-front/service-worker.js",
+    "static/css/main.a0b83bad.chunk.css.map": "/bitmedia-front/static/css/main.a0b83bad.chunk.css.map",
+    "static/js/2.c6a6143a.chunk.js.LICENSE.txt": "/bitmedia-front/static/js/2.c6a6143a.chunk.js.LICENSE.txt",
+    "static/media/clean.svg": "/bitmedia-front/static/media/clean.43cbfb65.svg",
+    "static/media/App.css": "/bitmedia-front/static/media/header.d32b47ac.svg",
+    "static/media/phone_img.svg": "/bitmedia-front/static/media/phone_img.62f0322d.svg",
+    "static/media/retina.svg": "/bitmedia-front/static/media/retina.bfd64388.svg",
+    "static/media/secure.svg": "/bitmedia-front/static/media/secure.74d5a06e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b57a99d.js",
+    "static/js/2.c6a6143a.chunk.js",
+    "static/css/main.a0b83bad.chunk.css",
+    "static/js/main.ad9f175e.chunk.js"
+  ]
+}
