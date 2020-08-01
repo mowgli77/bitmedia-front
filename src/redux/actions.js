@@ -20,24 +20,24 @@ const getBeginDate = (payload) => ({type: BEGIN_DATE, payload})
 const getEndDate = (payload) => ({type: END_DATE, payload})
 
 export const getUsersThunk = (pageSize, pageNumber = 0) => async (dispatch) => {
-    const response = await fetch(`/api/users/${pageSize}/${pageNumber}`)
+    const response = await fetch(`https://1h1ke.sse.codesandbox.io/api/users/${pageSize}/${pageNumber}`)
     const json = await response.json()
     dispatch(getUsers(json))
 }
 
 export const getUsersStatisticThunk = () => async (dispatch) => {
-    const response = await fetch('/api/statistics')
+    const response = await fetch('https://1h1ke.sse.codesandbox.io/api/statistics')
     const json = await response.json()
     dispatch(getUsersStatistic(json))
 }
 
 export const getUserThunk = (id) => async (dispatch) => {
-    const response = await fetch(`/api/user/${id}`)
+    const response = await fetch(`https://1h1ke.sse.codesandbox.io/api/user/${id}`)
     const json = await response.json()
     dispatch(getUser(json))
 }
 export const getUserCountThunk = () => async (dispatch) => {
-    const response = await fetch(`/api/userscount`)
+    const response = await fetch(`https://1h1ke.sse.codesandbox.io/api/userscount`)
     const json = await response.json()
     dispatch(getUsersCount(json))
 }
